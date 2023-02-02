@@ -1,2 +1,17 @@
-package PACKAGE_NAME;public class TreeNode {
+/*
+Auxiliary class for node problems
+ */
+
+public class TreeNode {
+
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 }
